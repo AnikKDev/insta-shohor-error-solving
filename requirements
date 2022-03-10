@@ -12,6 +12,7 @@ In total 6 bugs.
 3. fix the post caption -- there won't be any "text" text. (30 er beshi hoile slice kore thik thak 30 ta dekhano hocche, kintu 30 er kom hoile oi jaygay text lekha ta chole ashche, sheta thik kora lagbe) ===> DONE
 ===================================================================================================================================
 4. Fix the comment (ke comment korse, ki comment korse na dekhaye undefined undefined dekhaye dicche.) ===> DONE
+===================================================================================================================================
 5. show the reported post (top right corner er report er list e click korle jaderke report kora hoise tader list na dekhaye shobar list dekhaye dicche)
 6. fix the liked posts collection (top right e, liked photo te click korle, je koytake like deya hocche taar double dekhacche)
 
