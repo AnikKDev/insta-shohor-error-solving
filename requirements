@@ -26,9 +26,9 @@ In total 6 bugs.
 
 
 Bonus:::: 
-create a section as a very last tag of body before footer, then answer 2 questions out of 3.
+create a section as the second last tag of body, then answer 2 questions out of 3.
 minimum 5 lines, maximum 10 lines.
 
 question 1) How does javascript work?
-question 2) What does javascript event loop do?
-question 3) Deferences between local and session storage.
+question 2) What does javascript event loop do? ==> Answered
+question 3) Deferences between local and session storage. ==> Answered

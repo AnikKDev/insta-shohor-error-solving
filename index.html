@@ -65,18 +65,21 @@
             heap and call stack. Heap is basically used for memory management. And when functions are being called they
             goes to the call stack. Funcions are basically categorized as stack at the call stack. When the file gets
             the first javascript he creates a global context on the browser and whenever he gets a function he puts it
-            to the call stack and then the function will run its codes line by line (say syncronous). if he gets another
+            to the call stack and then the function will run its codes line by line (say synchronously). if he gets
+            another
             function inside
             of the function he's running he will put it to the stack again and then execute that very function which he
-            got just now.It's like Last come First Serve. But if he gets an asyncronous function(setTimeOut() etc) he
+            just
+            got now.It's like Last come First Served. But if he gets an asynchronous function(setTimeOut() etc) he
             will transfer it to the queue. And after completing the stack then the functions stored in queue will
-            execute. And the process how javascript realizes that he needs to execute the queued functions, is called
-            The Event Loop</p>
+            execute. And the process how javascript realizes that he needs to execute the queued functions after
+            execution of stacked functions, is called The Event Loop
+        </p>
 
 
         <h3>Deferences between local and session storage.</h3>
         <p>
-            Local storage is for for longer use. In the other hand session storage is temporary. If a user
+            Local storage is for for longer use. On the other hand session storage is temporary. If a user
             closes a tab the session storage will be gone too.
             It means If a page reloads or closes or reopens, session storage will remove as well. But local storage
             won't.
